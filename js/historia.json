@@ -1,0 +1,56 @@
+{
+    "timeline":
+            {
+                "headline": "<span></span>",
+                "type": "default",
+                "text": "<h3 class='start'>Desde 1945</h3>",
+                "startDate": "1945",
+                "asset":
+                        {
+                            "media": "/imagem/logo-mini.jpg",
+                            "thumbnail": "/imagem/logo-mini.jpg",
+                            "credit": "",
+                            "caption": ""
+                        },
+                "date": [
+                    {
+                        "startDate": "1946,12",
+                        "endDate": "1946,12",
+                        "headline": "<span>O começo</span>",
+                        "classname": "second-slide",
+                        "text": "Surgiu da necessidade do arquiteto Sandoval Ferreira Neto de despersonalizar seu nome e apresentar a seus clientes e potenciais clientes um estúdio de arquitetura que - capitaneado por um arquiteto premiado - ainda teria uma equipe de arquitetos, designers e modeladores 3D. Apesar de criada a sigla e marca, o nome do arquiteto ainda é bastante importante, tanto que consta no descritivo da marca.",
+                        "asset":
+                                {
+                                    "media": "/imagem/site/timeline/_MG_1486.jpg",
+                                    "thumbnail": "/imagem/site/timeline/_MG_1486.jpg",
+                                    "credit": "",
+                                    "caption": "Escritório"
+                                }
+                    },
+                    {
+                        "startDate": "1947,2",
+                        "headline": "<span>Lorem ipsum dolor sit amet</span>",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo eligendi repellat atque repudiandae, tempora, veritatis asperiores possimus beatae, optio dolores iusto saepe temporibus illo omnis. Doloremque fugit eligendi odio consectetur sint, nemo libero, totam, aperiam placeat non aliquid adipisci officiis necessitatibus atque repellat ducimus?",
+                        "asset":
+                                {
+                                    "media": "/imagem/site/timeline/_MG_1489.jpg",
+                                    "thumbnail": "/imagem/site/timeline/_MG_1489.jpg",
+                                    "credit": "",
+                                    "caption": "Primeira equipe"
+                                }
+                    },
+                    {
+                        "startDate": "1990",
+                        "headline": "<span>Dolorem voluptatum quo facere</span>",
+                        "text": "Dolorem voluptatum quo facere incidunt veniam voluptatibus maiores sit, natus perferendis dolorum, aut perspiciatis maxime consequuntur asperiores, nemo distinctio saepe a, nobis provident odit! Omnis blanditiis quod eaque facere rerum ratione iste illum aut maxime error suscipit neque id perferendis consequuntur expedita est culpa ea, assumenda iusto inventore? Asperiores blanditiis minus animi omnis, ullam maxime excepturi repellendus totam nostrum aperiam. Non id placeat, maiores consequatur alias cumque ratione, reprehenderit sit quod.",
+                        "asset":
+                                {
+                                    "media": "/imagem/site/timeline/_MG_1490.jpg",
+                                    "thumbnail": "/imagem/site/timeline/_MG_1490.jpg",
+                                    "credit": "",
+                                    "caption": ""
+                                }
+                    }
+                ]
+            }
+}

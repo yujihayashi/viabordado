@@ -40,8 +40,7 @@ module.exports = function( grunt ) {
         dist : {
             files : [
             'css/less/**/*',
-            'js/**/*',
-            '**/*'
+            'js/**/*'
             ],
 
             options: {

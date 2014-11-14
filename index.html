@@ -39,20 +39,36 @@
 							<div class="navbar-header">
 								<a class="navbar-brand" href="/" title="Voltar para a página inicial"><img src="/imagem/site/via-bordado.png" alt="Logotipo Via Bordado"></a>
 							</div> <!-- .navbar-header -->
-							<div class="collapse navbar-collapse navbar-ex1-collapse">
-								<ul class="nav navbar-nav">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="#">Quem Somos</a></li>
-									<li><a href="#">Produtos</a></li>
-									<li><a href="#">Galeria</a></li>
-									<li><a href="#">Orçamento</a></li>
-									<li><a href="#">Contato</a></li>
-								</ul>
-							</div><!-- /.navbar-collapse -->
+							<p class="navbar-text frase">Seja bem vindo!</p>
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="/" title="Ir para a página inicial"><span class="sr-only">Home</span><span class="icon-home-white icone"></span></a></li>
+								<li><a href="#">Quem Somos</a></li>
+								<li><a href="#">Produtos</a></li>
+								<li><a href="#">Galeria</a></li>
+								<li><a href="#">Orçamento</a></li>
+								<li><a href="#">Contato</a></li>
+							</ul>
 							<div class="header-carrinho">
 								<a href="#" class="link"></a>
 							</div> <!-- .header-carrinho -->
 						</nav>
+						<a href="#" class="carrinho" title="Clique para ver seu montar seu orçamento">
+							<span class="qtd">
+								<span class="icon-carrinho-white"></span>
+								<span class="text">(Vazio)</span>
+							</span>
+							<span class="div"></span>
+							<span class="title">
+								<span class="text">Ver orçamento</span>
+							</span>
+						</a>
+						<span class="atendimento">
+							<span class="inline-block">
+								<small>Atendimento:</small><br>
+								<span>(91) 3241-7534</span>
+							</span>
+							<span class="icon-phone-white icone"></span>
+						</span>
 					</div> <!-- .container -->
 				</div> <!-- .site-header -->
 			</header> <!-- .extra-header -->
@@ -63,10 +79,10 @@
 							<div class="col-xs-6">
 								<div class="box-categorias">
 									<div class="box-header">
-										<h2>Confira nossos produtos!</h2>
+										<h2 class="media-heading text-right">Confira nossos produtos!</h2>
 									</div> <!-- .box-header -->
 									<div class="box-content">
-										<ul class="lista-categorias">
+										<ul class="lista-categorias clearfix">
 											<li><a href="#">Marcas bordadas</a></li>
 											<li><a href="#">Bonés personalizados</a></li>
 											<li><a href="#">Camisas customizadas</a></li>
@@ -81,9 +97,36 @@
 						<div class="row">
 							<div class="col-xs-9">
 								<div class="box-banner">
-									<ul class="cycle-slideshow">
-										<li></li>
-									</ul>
+									<span class="camisa-back"><img src="/imagem/site/camisa-back.png" alt="Camisa e boné"></span>
+									<span class="camisa-front"><img src="/imagem/site/camisa-front.png" alt="Camisa com bordado"></span>
+									<div class="box-cycle">
+										<ul class="cycle-slideshow" data-cycle-fx="scrollVert" data-cycle-timeout="5000" data-cycle-speed="1800" data-cycle-slides="> li" data-cycle-pager=".box-banner .cycle-nav" data-cycle-easing="easeInOutExpo" data-cycle-log="false" data-cycle-pager-template="<span>{{slideNum}}</span>">
+											<li>
+												<div class="content">
+													<a href="#" class="imagem">
+														<img src="/imagem/site/destaque-01.jpg" alt="">
+														<span class="mask"></span>
+													</a>
+													<div class="text">
+														<span class="box-header">Destaque</span>
+														<a href="#" class="title">Camisas Bordadas do Círio de Nazaré</a>
+													</div> <!-- .text -->
+												</div> <!-- .content -->
+											</li>
+											<li>
+												<div class="content">
+													<a href="#" class="imagem">
+														<img src="/imagem/site/destaque-01.jpg" alt="">
+														<span class="mask"></span>
+													</a>
+													<div class="text">
+														<span class="box-header">Destaque</span>
+														<a href="#" class="title">Círio de Nazaré</a>
+													</div> <!-- .text -->
+												</div> <!-- .content -->
+											</li>
+										</ul>
+									</div> <!-- .box-cycle -->
 									<div class="cycle-nav"></div> <!-- .cycle-nav -->
 								</div> <!-- .box-banner -->
 							</div> <!-- .col-xs-9 -->
@@ -94,32 +137,47 @@
 									<div class="box-header">
 										<div class="row">
 											<div class="col-xs-6">
-												<h2>Fotos Recentes</h2>
+												<h2 class="media-heading">Fotos Recentes</h2>
 											</div> <!-- .col-xs-6 -->
 											<div class="col-xs-6 text-right">
-												<a href="#">Veja mais fotos >></a>
+												<a href="#" class="plus">Veja mais fotos >></a>
 											</div> <!-- .col-xs-6 -->
 										</div>
 									</div> <!-- .box-header -->
 									<div class="box-content">
-										<ul class="lista-fotos">
-											<li>
-												<a href="#" class="link">
-													<span class="imagem"><img src="" alt=""></span>
-													<span class="title">Camisa bordada variada</span>
-												</a>
+										<ul class="lista-fotos row">
+											<li class="col-xs-4">
+												<div class="content">
+													<a href="#" class="link">
+														<span class="imagem"><img src="/imagem/site/foto-01.jpg" alt=""></span>
+														<span class="text">
+															<span class="title">Camisa bordada variada</span>
+															<span class="carrinho"><span class="icon-carrinho"></span></span>
+														</span>
+													</a>
+												</div> <!-- .content -->
 											</li>
-											<li>
-												<a href="#" class="link">
-													<span class="imagem"><img src="" alt=""></span>
-													<span class="title">Camisa bordada variada</span>
-												</a>
+											<li class="col-xs-4">
+												<div class="content">
+													<a href="#" class="link">
+														<span class="imagem"><img src="/imagem/site/foto-01.jpg" alt=""></span>
+														<span class="text">
+															<span class="title">Camisa</span>
+															<span class="carrinho"><span class="icon-carrinho"></span></span>
+														</span>
+													</a>
+												</div> <!-- .content -->
 											</li>
-											<li>
-												<a href="#" class="link">
-													<span class="imagem"><img src="" alt=""></span>
-													<span class="title">Camisa bordada variada</span>
-												</a>
+											<li class="col-xs-4">
+												<div class="content">
+													<a href="#" class="link">
+														<span class="imagem"><img src="/imagem/site/foto-01.jpg" alt=""></span>
+														<span class="text">
+															<span class="title">Camisa bordada variada</span>
+															<span class="carrinho"><span class="icon-carrinho"></span></span>
+														</span>
+													</a>
+												</div> <!-- .content -->
 											</li>
 										</ul>
 									</div> <!-- .box-content -->
@@ -141,9 +199,9 @@
 												<label for="fNewsletterEmail" class="sr-only">E-mail:</label>
 												<input type="email" class="form-control" id="fNewsletterEmail" name="fNewsletterEmail" placeholder="E-mail:">
 											</div> <!-- .form-group -->
-											<button type="submit" class="btn btn-primary btn-block">ENVIAR</button>
 										</form>
 									</div> <!-- .box-content -->
+									<button type="submit" class="btn btn-primary btn-block">ENVIAR</button>
 								</div> <!-- .box-newsletter -->
 							</div> <!-- .col-xs-3 -->
 						</div> <!-- .row -->
@@ -164,7 +222,7 @@
 										<a href="mailto:contato@viabordado.com.br" itemprop="email">contato@viabordado.com.br</a>
 									</p>
 								</div> <!-- .col-xs-6 -->
-								<div class="col-xs-6">
+								<div class="col-xs-6 text-right">
 									<span class="footer-header">Siga-nos</span><br>
 									<a href="#" title="Conheça nosso Facebook"><span class="sr-only">Facebook</span><span class="icon-facebook"></span></a>
 									<a href="#" title="Conheça nosso Instagram"><span class="sr-only">Instagram</span><span class="icon-instagram"></span></a>
@@ -177,7 +235,7 @@
 				<div class="extra-footer-2">
 					<div class="site-footer-2">
 						<div class="container">
-							<small>Copyright © Via Bordado. 2014. Todos os direitos reservados. Desenvolvido por: <a href="#" title="Libra Design"><img src="" alt="Logotipo Libra Design +Tech"></a></small>
+							<small>Copyright © Via Bordado. 2014. Todos os direitos reservados. Desenvolvido por: <a href="#" title="Libra Design"><img src="/imagem/site/libra.png" alt="Logotipo Libra Design +Tech"></a></small>
 						</div> <!-- .container -->
 					</div> <!-- .site-footer-2 -->
 				</div> <!-- .extra-footer-2 -->

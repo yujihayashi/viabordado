@@ -1,0 +1,9 @@
+.icon{ background:url("icon.png") top left no-repeat; }
+.icon-instagram{ width:37px; height:36px; background-position:-1px -1px; }
+.icon-facebook{ width:36px; height:36px; background-position:-1px -38px; }
+.icon-twitter{ width:36px; height:36px; background-position:-1px -75px; }
+.icon-phone-white{ width:27px; height:27px; background-position:-1px -112px; }
+.icon-carrinho{ width:29px; height:25px; background-position:-1px -140px; }
+.icon-carrinho-white{ width:24px; height:21px; background-position:-1px -166px; }
+.icon-home-white{ width:20px; height:18px; background-position:-1px -188px; }
+
